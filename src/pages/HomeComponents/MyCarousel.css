@@ -1,0 +1,40 @@
+.carousel-container{
+    width: 100%;
+}
+
+.carousel-slide{
+    height: 300px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 640px){
+    .carousel-slide{
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-slide{
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .carousel-slide{
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .carousel-slide{
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .carousel-slide{
+        height: 800px;
+    }
+}
